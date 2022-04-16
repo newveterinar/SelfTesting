@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">SelfTesting_4.2.2</string>
+    <string name="button_text">Click me</string>
 </resources>
