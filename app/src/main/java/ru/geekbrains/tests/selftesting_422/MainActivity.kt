@@ -8,13 +8,14 @@ import android.widget.Toast
 class MainActivity: AppCompatActivity() {
 
     /** Задание переменных */ //region
-    val button: Button = findViewById<Button>(R.id.button)
+    lateinit var button: Button
     //endregion
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        button = findViewById<Button>(R.id.button)
         button.setOnClickListener {
             Toast.makeText(this, "Hello team!", Toast.LENGTH_SHORT).show()
         }
