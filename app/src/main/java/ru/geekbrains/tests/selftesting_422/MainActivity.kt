@@ -21,5 +21,6 @@ class MainActivity: AppCompatActivity() {
     }
 
     override fun onBackPressed() {
+        // Сюда нужно написать алгоритм
     }
 }
