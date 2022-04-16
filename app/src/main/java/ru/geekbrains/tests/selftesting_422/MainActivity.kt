@@ -21,6 +21,6 @@ class MainActivity: AppCompatActivity() {
     }
 
     override fun onBackPressed() {
-        // Сюда нужно написать алгоритм
+        Toast.makeText(this, "Close team!", Toast.LENGTH_SHORT).show()
     }
 }
