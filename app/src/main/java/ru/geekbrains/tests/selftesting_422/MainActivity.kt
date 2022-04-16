@@ -19,4 +19,7 @@ class MainActivity: AppCompatActivity() {
             Toast.makeText(this, "Hello team!", Toast.LENGTH_SHORT).show()
         }
     }
+
+    override fun onBackPressed() {
+    }
 }
